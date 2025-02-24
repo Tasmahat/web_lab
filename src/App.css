@@ -1,0 +1,318 @@
+body {
+  background-color: #F7F0D2;
+}
+
+.header {
+  background-color: #DBCAAE;
+  height: 14vh;
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  z-index: 1;
+}
+
+.header-company-name {
+  color: #11292C;
+  margin-left: 1vw;
+  font-family: "Great Vibes", serif;
+  font-size: 48px;
+  font-style: normal;
+  text-decoration: 3.5% underline;
+  text-underline-offset: 5%;
+  font-weight: 400;
+  width: 12vw;
+  height: auto;
+  margin-top: 2vh;
+}
+
+.header-menu {
+  width: 70vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu button {
+  height: 10vh;
+  width: 10vw;
+  background-color: #CAA089;
+  border-style: none;
+  border-radius: 10px;
+
+  font-family: Commissioner;
+  font-size: 34px;
+  text-align: center;
+  align-items: center;
+  font-weight: 400;
+  color: #11292C;
+}
+
+.header-menu button:hover {
+  background-color: #a98571;
+  cursor: pointer;
+}
+
+.page-main-name {
+  color: #11292C;
+  font-family: "Great Vibes", serif;
+  font-size: 68px;
+  font-style: normal;
+  text-underline-offset: 5%;
+  font-weight: 400;
+  margin-top: 2vh;
+}
+
+.page-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 14vh;
+}
+
+.news-block {
+  background-color: #DBCAAE;
+  width: 52vw;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10vh;
+}
+
+.news-block img {
+  width: 35vw;
+  height: 40vh;
+  object-fit: cover;
+  margin: 4vh auto;
+  border-radius: 10px;
+}
+
+.news-block h3 {
+  color: #11292C;
+  margin-left: 8.5vw;
+  margin-top: -3vh;
+  font-family: Commissioner;
+  font-size: 38px;
+  font-weight: 400;
+  color: #11292C;
+}
+
+.news-block p {
+  width: 35vw;
+  margin: -2vh auto 4vh auto;
+  font-family: Commissioner;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.catalogue-body {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 3vw;
+}
+
+.catalogue-block {
+  height: 38vh;
+  width: 28vw;
+  background-color: crimson;
+  margin-bottom: 11vh;
+}
+
+.catalogue-block img {
+  height: 38vh;
+  width: 28vw;
+  object-fit: cover;
+}
+
+.catalogue-block-title {
+  height: 11vh;
+  width: 28vw;
+  background-color: #11292CCC;
+  position: absolute;
+  margin-top: -11.2vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.catalogue-block-title h3 {
+  color: white;
+  font-family: Commissioner;
+  font-size: 36px;
+  font-weight: 400;
+  margin: auto 1vw;
+  width: 12vw;
+  text-align: center;
+}
+
+.catalogue-block-title p {
+  color: #BCBCBCFF;
+  font-family: Commissioner;
+  font-size: 40px;
+  font-weight: 400;
+  margin: auto auto auto 3vw;
+  width: 10vw;
+}
+
+.contacts-block {
+  width: 80vw;
+  height: 53vh;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-bottom: 10vh;
+}
+
+.contacts-block img {
+  width: 37vw;
+  height: 53vh;
+  object-fit: cover;
+}
+
+.contacts-block-text-block {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2vw;
+}
+
+.contacts-block-text-block h2 {
+  font-family: Commissioner;
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.contacts-block-text-block h3 {
+  font-family: Commissioner;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: -4vh;
+  text-decoration: 8% underline;
+}
+
+.contacts-block-text-block h4 {
+  font-family: Commissioner;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.contacts-block-text-block h5 {
+  margin-top: -4vh;
+  font-family: Commissioner;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.contacts-block-text-block p {
+  font-family: Commissioner;
+  font-weight: 400;
+  font-size: 32px;
+  font-style: italic;
+  align-self: flex-end;
+}
+
+.order-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  column-gap: 15vw;
+}
+
+.order-address-block {
+  margin-bottom: 5vh;
+  margin-left: 3vh;
+}
+
+.order-address-block h2 {
+  font-family: Commissioner;
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.order-address-block input {
+  width: 40vw;
+  height: 5vh;
+  border-style: none;
+  border-radius: 30px;
+}
+
+.order-address-block input::placeholder {
+  font-family: Commissioner;
+  font-weight: 400;
+  font-size: 32px;
+  padding-left: 2vw;
+}
+
+.order-address-block input[type="text"] {
+  font-family: Commissioner;
+  font-weight: 400;
+  font-size: 32px;
+  padding-left: 2vw;
+}
+
+.order-address-block button {
+  position: absolute;
+  height: 5vh;
+  width: 7vh;
+  font-family: Commissioner;
+  font-weight: 400;
+  font-size: 16px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-left: -3.5vw;
+  margin-top: 0.1vh;
+  border-style: none;
+  background-color: #D9D9D9;
+}
+
+.order-address-block button:hover {
+  background-color: #939393;
+  cursor: pointer;
+}
+
+.order-payment-type-block {
+  margin-bottom: 10vh;
+  margin-left: 3vh;
+}
+
+.order-payment-type-block h2 {
+  font-family: Commissioner;
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.order-payment-type-block select {
+  width: 20vw;
+  height: 5vh;
+  border-style: none;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  font-family: Commissioner;
+  font-weight: 400;
+  font-size: 32px;
+  color: #444444;
+  padding-left: 1vw;
+}
+
+.order-payment-type-block option {
+  color: black;
+}
+
+.order-payment-type-block option:disabled {
+  color: #939393;
+}
+
+.order-payment-type-block select::selection {
+}
+
+.order-block-all-orders {
+  column-span: 2;
+}
+
+.order-block-all-orders h2 {
+  font-family: Commissioner;
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.order-block-all-orders p {
+  font-family: Commissioner;
+  font-weight: 400;
+  font-size: 48px;
+}
