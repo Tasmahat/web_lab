@@ -152,6 +152,21 @@ body {
   width: 10vw;
 }
 
+.catalogue-create-product {
+  position: absolute;
+  background-color: #CAA089;
+  border-style: none;
+  border-radius: 10px;
+  margin-left: 36vw;
+  margin-top: -13vh;
+  height: 7vh;
+
+  font-family: Commissioner;
+  font-size: 24px;
+  font-weight: 400;
+  color: #11292C;
+}
+
 .contacts-block {
   width: 80vw;
   height: 53vh;
@@ -315,4 +330,63 @@ body {
   font-family: Commissioner;
   font-weight: 400;
   font-size: 48px;
+}
+
+.create-tea-form {
+  margin: auto;
+  margin-top: 10vh;
+  width: 40vw;
+  height: 70vh;
+  background-color: #CAA089;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 30px;
+}
+
+.create-tea-return {
+  height: 5vh;
+  width: 9vw;
+  font-size: 16px;
+  background-color: #493a31;
+  border-style: none;
+  border-radius: 10px;
+  font-family: Commissioner;
+  font-weight: 400;
+  color: #fff0e8;
+}
+
+.create-tea-return:hover {
+  cursor: pointer;
+}
+
+.input-box {
+  height: 4vh;
+  width: 14vw;
+  text-align: center;
+  border: #212121 1px solid;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: Commissioner;
+  font-weight: 400;
+}
+
+.add-file {
+  font-size: 16px;
+}
+
+.create-form-button {
+  height: 4vh;
+  width: 9vw;
+  font-size: 16px;
+  background-color: #f5e7df;
+  border-style: none;
+  border-radius: 10px;
+  font-family: Commissioner;
+  font-weight: 400;
+}
+
+.create-form-button:hover {
+  cursor: pointer;
 }

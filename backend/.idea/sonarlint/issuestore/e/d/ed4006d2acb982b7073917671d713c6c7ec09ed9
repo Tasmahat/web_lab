@@ -1,20 +1,20 @@
 
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ü†ùg8ÙóÚåŞ2J$8a419b99-0b35-45fa-8d38-d46e04e4d009
+”	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ü†ùgJ$54f892f2-352c-4a70-832c-616545f5b003
 `
-java:S1166;"%Either log or rethrow this exception.(ÿÒ„pJ$c6572a65-2be7-4a8c-8ece-5df176e7b171
-
-java:S1488"bImmediately return this expression instead of assigning it to the temporary variable "imagesPage".(¶åÇşJ$9d9dbb1f-aaa8-4d31-add7-1dfcb6cd774b
+java:S1166;"%Either log or rethrow this exception.(ÿÒ„pJ$fc20351f-5b59-450a-bac3-0c69535c9ded
+¥
+java:S1488"bImmediately return this expression instead of assigning it to the temporary variable "imagesPage".(¶åÇş8¸ß½èŞ2J$0bfbe3a1-0e83-4350-81a0-89ba253e1fb7
 f
-java:S23254"%Make "generateKey" a "static" method.(ç¢ìõúÿÿÿÿJ$5d1bcb0e-767c-4575-960a-1995aea9ab1c
+java:S23254"%Make "generateKey" a "static" method.(ç¢ìõúÿÿÿÿJ$24a05363-98fc-4212-acba-58c4b9d4cd1a
 –
-java:S3749"ZAnnotate this member with "@Autowired", "@Resource", "@Inject", or "@Value", or remove it.(•¤ÑJ$7425bdcd-bfce-4dbb-a9b3-d69497153c35
-k
-java:S6212"/Declare this local variable with "var" instead.(±µûïJ$6c0131e8-7432-432b-8b37-4d50b1225b9e
+java:S3749"ZAnnotate this member with "@Autowired", "@Resource", "@Inject", or "@Value", or remove it.(•¤ÑJ$2f179aa7-ce05-420d-8d85-0c3d630c929c
+r
+java:S6212"/Declare this local variable with "var" instead.(±µûï8Âß½èŞ2J$28decc35-cbe2-4bc4-be6c-a515f016b9ba
 _
-java:S19436"Remove this use of "getBytes".(„¥´ìûÿÿÿÿJ$0fb7b0d3-39ac-4371-8bd2-efaedd73d320
+java:S19436"Remove this use of "getBytes".(„¥´ìûÿÿÿÿJ$53f41175-99a9-406c-837d-7a8134a78bc8
 p
-java:S62128"/Declare this local variable with "var" instead.(¾„ûÿÿÿÿJ$07bf8aa4-3a7e-4a05-98ec-b3ba27df2da2
+java:S62128"/Declare this local variable with "var" instead.(¾„ûÿÿÿÿJ$c7eb423f-1900-4104-b097-5d7e4def80cf
 a
-java:S2116:"%Use "Arrays.toString(array)" instead.(Å¢çJ$6cc3f4ae-5348-4e95-b470-fd51e6f14bc4
+java:S2116:"%Use "Arrays.toString(array)" instead.(Å¢çJ$9504fce0-316c-46c2-9616-9305ea956e52
 ğ
-java:S4605"³'ImagesService' is not reachable by @ComponentScan or @SpringBootApplication. Either move it to a package configured in @ComponentScan or update your @ComponentScan configuration.(×Â¡ÕJ$4826728c-de0d-466e-b58f-cb6cb998e3a4
+java:S4605"³'ImagesService' is not reachable by @ComponentScan or @SpringBootApplication. Either move it to a package configured in @ComponentScan or update your @ComponentScan configuration.(×Â¡ÕJ$2ce58411-c95a-4acd-95a2-8076c02e2659

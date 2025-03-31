@@ -1,6 +1,6 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ó˜Ñ÷ıÿÿÿÿ8òşÙåŞ2J$f022f934-b513-43ac-9eae-0e2596522efb
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ó˜Ñ÷ıÿÿÿÿ8³ÕèŞ2J$83220b6d-de34-435d-804a-e45b2fa3f75d
 h
-java:S1166&"%Either log or rethrow this exception.(ï­£Ä8ïöÕåŞ2J$699341ad-a1d3-4472-a82b-d39f0da012eb
+java:S1166&"%Either log or rethrow this exception.(ï­£Ä8‘³ÕèŞ2J$2c90e17d-e980-40b6-aef0-180f7833cbf6
 ú
-java:S4605"¶'ImagesController' is not reachable by @ComponentScan or @SpringBootApplication. Either move it to a package configured in @ComponentScan or update your @ComponentScan configuration.(ğŞû8÷ÕåŞ2J$a1a2e65a-d2ec-42f3-aa92-a5cbdeb303b4
+java:S4605"¶'ImagesController' is not reachable by @ComponentScan or @SpringBootApplication. Either move it to a package configured in @ComponentScan or update your @ComponentScan configuration.(ğŞû8©³ÕèŞ2J$ae1c7097-fe37-4597-ac4a-70dc6e0bfeab

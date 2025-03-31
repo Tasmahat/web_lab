@@ -1,19 +1,0 @@
-
-`
-java:S11669"%Either log or rethrow this exception.(ÿÒ„pJ$8d36f06b-34cd-470c-b89a-ace8836090e2
-
-java:S1488"bImmediately return this expression instead of assigning it to the temporary variable "imagesPage".(¶åÇşJ$9d0cf505-e9b9-4993-a334-e0ec51d33d41
-f
-java:S23252"%Make "generateKey" a "static" method.(ç¢ìõúÿÿÿÿJ$3e9ba852-ebac-41ca-b78b-2263ea385373
-–
-java:S3749"ZAnnotate this member with "@Autowired", "@Resource", "@Inject", or "@Value", or remove it.(•¤ÑJ$01229cb3-d1ab-4fa7-bbb6-cd4a1602230f
-k
-java:S6212"/Declare this local variable with "var" instead.(±µûïJ$21012edc-7026-4ef2-ad95-734e2fa14e80
-_
-java:S19434"Remove this use of "getBytes".(„¥´ìûÿÿÿÿJ$aaec0c46-db15-4b4f-abed-e0ff4258ef82
-p
-java:S62126"/Declare this local variable with "var" instead.(¾„ûÿÿÿÿJ$a6d295f2-1e9c-4002-b746-50f9ae2b28cb
-a
-java:S21168"%Use "Arrays.toString(array)" instead.(Å¢çJ$ffb6f57d-cb57-45c2-b384-270c3ba2bf15
-ğ
-java:S4605"³'ImagesService' is not reachable by @ComponentScan or @SpringBootApplication. Either move it to a package configured in @ComponentScan or update your @ComponentScan configuration.(×Â¡ÕJ$8f1c97ea-3028-4acf-9e77-bad123a0ffa5

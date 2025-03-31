@@ -1,10 +1,10 @@
 
-”	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ü†ùgJ$2c851c19-b6d7-445d-810d-a51b1d7bbfaf
+”	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ü†ùgJ$6be8ce50-6581-4817-bfad-b588b7e0b082
 €
-java:S2259"DA "NullPointerException" could be thrown; "stream" is nullable here.(Õ—Ü§J$73711434-02fb-4406-ad7f-9b1894b228a9
+java:S2259"DA "NullPointerException" could be thrown; "stream" is nullable here.(Õ—Ü§J$b7949cae-bca9-4cc0-b60a-3601e61a3cbc
 p
-java:S6212"/Declare this local variable with "var" instead.(ÆÑÈÝøÿÿÿÿJ$49970e3c-e2d2-4eb6-af21-edcce9d950c4
+java:S6212"/Declare this local variable with "var" instead.(ÆÑÈÝøÿÿÿÿJ$1cb402e6-0c81-46f5-b6a6-86385561171e
 k
-java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿJ$3f6046d0-c573-4004-81fc-fe3c5b9c8ed5
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿJ$984c2e13-8b53-4c4a-a57f-40fd4f46d819
 p
-java:S6212"/Declare this local variable with "var" instead.(ÆÑÈÝøÿÿÿÿJ$c2338587-2f35-4b1f-bb26-7b7bbb91b9ff
+java:S6212"/Declare this local variable with "var" instead.(ÆÑÈÝøÿÿÿÿJ$f9bd12ea-7adf-49f7-8c86-3ed4e0d4b67e
