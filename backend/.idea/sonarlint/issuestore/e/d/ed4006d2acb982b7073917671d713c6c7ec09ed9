@@ -1,20 +1,0 @@
-
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ü†ùg8ÙóÚåŞ2J$8a419b99-0b35-45fa-8d38-d46e04e4d009
-`
-java:S1166;"%Either log or rethrow this exception.(ÿÒ„pJ$c6572a65-2be7-4a8c-8ece-5df176e7b171
-
-java:S1488"bImmediately return this expression instead of assigning it to the temporary variable "imagesPage".(¶åÇşJ$9d9dbb1f-aaa8-4d31-add7-1dfcb6cd774b
-f
-java:S23254"%Make "generateKey" a "static" method.(ç¢ìõúÿÿÿÿJ$5d1bcb0e-767c-4575-960a-1995aea9ab1c
-–
-java:S3749"ZAnnotate this member with "@Autowired", "@Resource", "@Inject", or "@Value", or remove it.(•¤ÑJ$7425bdcd-bfce-4dbb-a9b3-d69497153c35
-k
-java:S6212"/Declare this local variable with "var" instead.(±µûïJ$6c0131e8-7432-432b-8b37-4d50b1225b9e
-_
-java:S19436"Remove this use of "getBytes".(„¥´ìûÿÿÿÿJ$0fb7b0d3-39ac-4371-8bd2-efaedd73d320
-p
-java:S62128"/Declare this local variable with "var" instead.(¾„ûÿÿÿÿJ$07bf8aa4-3a7e-4a05-98ec-b3ba27df2da2
-a
-java:S2116:"%Use "Arrays.toString(array)" instead.(Å¢çJ$6cc3f4ae-5348-4e95-b470-fd51e6f14bc4
-ğ
-java:S4605"³'ImagesService' is not reachable by @ComponentScan or @SpringBootApplication. Either move it to a package configured in @ComponentScan or update your @ComponentScan configuration.(×Â¡ÕJ$4826728c-de0d-466e-b58f-cb6cb998e3a4

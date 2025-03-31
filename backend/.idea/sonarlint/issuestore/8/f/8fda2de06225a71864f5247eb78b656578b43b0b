@@ -1,4 +1,0 @@
-
-u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ü†ùg8ß³áåÞ2
-Ø
-java:S4605"µ'ProductsService' is not reachable by @ComponentScan or @SpringBootApplication. Either move it to a package configured in @ComponentScan or update your @ComponentScan configuration.(Ù´á§ùÿÿÿÿ8è³áåÞ2

@@ -1,10 +1,0 @@
-
-”	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ü†ùgJ$2c851c19-b6d7-445d-810d-a51b1d7bbfaf
-€
-java:S2259"DA "NullPointerException" could be thrown; "stream" is nullable here.(Õ—Ü§J$73711434-02fb-4406-ad7f-9b1894b228a9
-p
-java:S6212"/Declare this local variable with "var" instead.(ÆÑÈÝøÿÿÿÿJ$49970e3c-e2d2-4eb6-af21-edcce9d950c4
-k
-java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿJ$3f6046d0-c573-4004-81fc-fe3c5b9c8ed5
-p
-java:S6212"/Declare this local variable with "var" instead.(ÆÑÈÝøÿÿÿÿJ$c2338587-2f35-4b1f-bb26-7b7bbb91b9ff
