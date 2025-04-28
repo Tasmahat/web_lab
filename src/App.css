@@ -113,7 +113,6 @@ body {
 .catalogue-block {
   height: 38vh;
   width: 28vw;
-  background-color: crimson;
   margin-bottom: 11vh;
 }
 
@@ -223,113 +222,71 @@ body {
 }
 
 .order-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto;
-  column-gap: 15vw;
-}
-
-.order-address-block {
-  margin-bottom: 5vh;
-  margin-left: 3vh;
-}
-
-.order-address-block h2 {
-  font-family: Commissioner;
-  font-weight: 400;
-  font-size: 48px;
-}
-
-.order-address-block input {
-  width: 40vw;
-  height: 5vh;
-  border-style: none;
+  margin: auto;
+  width: 70vw;
+  background-color: #CAA089;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   border-radius: 30px;
+  margin-bottom: 5vh;
 }
 
-.order-address-block input::placeholder {
-  font-family: Commissioner;
-  font-weight: 400;
-  font-size: 32px;
-  padding-left: 2vw;
+.order-grid input {
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
 }
 
-.order-address-block input[type="text"] {
-  font-family: Commissioner;
-  font-weight: 400;
-  font-size: 32px;
-  padding-left: 2vw;
+.order-checkbox {
+  height: 4vh;
+  width: 4vh;
 }
 
-.order-address-block button {
-  position: absolute;
-  height: 5vh;
-  width: 7vh;
-  font-family: Commissioner;
-  font-weight: 400;
-  font-size: 16px;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
-  margin-left: -3.5vw;
-  margin-top: 0.1vh;
-  border-style: none;
-  background-color: #D9D9D9;
-}
-
-.order-address-block button:hover {
-  background-color: #939393;
-  cursor: pointer;
-}
-
-.order-payment-type-block {
+.order-select {
   margin-bottom: 10vh;
-  margin-left: 3vh;
-}
-
-.order-payment-type-block h2 {
-  font-family: Commissioner;
-  font-weight: 400;
-  font-size: 48px;
-}
-
-.order-payment-type-block select {
-  width: 20vw;
-  height: 5vh;
-  border-style: none;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  font-family: Commissioner;
-  font-weight: 400;
-  font-size: 32px;
+  height: 4vh;
+  width: 14vw;
   color: #444444;
   padding-left: 1vw;
-}
-
-.order-payment-type-block option {
-  color: black;
-}
-
-.order-payment-type-block option:disabled {
-  color: #939393;
-}
-
-.order-payment-type-block select::selection {
-}
-
-.order-block-all-orders {
-  column-span: 2;
-}
-
-.order-block-all-orders h2 {
+  border: #212121 1px solid;
+  border-radius: 10px;
+  font-size: 18px;
   font-family: Commissioner;
   font-weight: 400;
-  font-size: 48px;
 }
 
-.order-block-all-orders p {
+.order-grid h2 {
   font-family: Commissioner;
   font-weight: 400;
-  font-size: 48px;
+  font-size: 30px;
+}
+
+.order-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: rgba(255, 238, 238, 0.42);
+  font-family: Commissioner;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+
+.order-table th, td{
+  padding: 10px 20px;
+  border: 2px solid #000;
+}
+
+.order-table th {
+  background-color: #a98571;
+}
+
+.order-table-img {
+  max-width: 400px;
+}
+
+.order-table input {
+  width: 5vw;
 }
 
 .create-tea-form {
@@ -372,6 +329,11 @@ body {
   font-weight: 400;
 }
 
+.input-box:disabled {
+  opacity: 100%;
+  color: #000000;
+}
+
 .add-file {
   font-size: 16px;
 }
@@ -385,6 +347,7 @@ body {
   border-radius: 10px;
   font-family: Commissioner;
   font-weight: 400;
+  margin-bottom: 2vh;
 }
 
 .create-form-button:hover {

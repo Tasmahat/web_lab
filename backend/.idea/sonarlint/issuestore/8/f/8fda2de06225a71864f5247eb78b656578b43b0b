@@ -1,4 +1,8 @@
 
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ü†ùg8ê†ÒèŞ2J$7df4f6c4-e5e0-4395-9f6d-49406af2f1d7
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ü†ùg8ß¦½Îâ2J$e8ee1e57-e071-4bdf-808f-2775904a2711
+r
+java:S6212"/Declare this local variable with "var" instead.(¼Ğâ8ê¦½Îâ2J$a724a3ad-48d3-426a-a5af-5fe743a81d95
+r
+java:S6212 "/Declare this local variable with "var" instead.(÷Æá8ê¦½Îâ2J$cb2c65b0-c891-4f5a-8565-56947731809a
 ş
-java:S4605"µ'ProductsService' is not reachable by @ComponentScan or @SpringBootApplication. Either move it to a package configured in @ComponentScan or update your @ComponentScan configuration.(Ù´á§ùÿÿÿÿ8û†ÒèŞ2J$96b016ad-486d-4e9e-9869-62047d6abe23
+java:S4605"µ'ProductsService' is not reachable by @ComponentScan or @SpringBootApplication. Either move it to a package configured in @ComponentScan or update your @ComponentScan configuration.(Ù´á§ùÿÿÿÿ8ì¦½Îâ2J$1160ded4-0422-432f-9db2-9a9cb0991aa6

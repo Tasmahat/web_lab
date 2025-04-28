@@ -30,7 +30,7 @@ function Menu() {
             </a>
             <a href={"/order"}>
                 <button>
-                    Заказать
+                    Форма заказа
                 </button>
             </a>
         </div>

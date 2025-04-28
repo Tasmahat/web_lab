@@ -49,10 +49,10 @@ function CreateProduct() {
 
         xhr.send(data);
 
-        uploadPizza();
+        uploadProduct();
     }
 
-    async function uploadPizza() {
+    async function uploadProduct() {
         while(loadingImage) {
             await new Promise(r => setTimeout(r, 500));
         }

@@ -6,6 +6,7 @@ import com.project.backend.Repositories.ProductsRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class ProductsService {
@@ -22,9 +23,14 @@ public class ProductsService {
         return productsRepository.findAll();
     }
 
+    public ProductsEntity getProduct(Long id) {
+        return productsRepository.findById(id).orElse(null);
+    }
+
     public ProductsEntity saveProduct(String name, Float price, Long imageId) {
         Images image = imagesService.getImageById(imageId);
-        ProductsEntity product = new ProductsEntity(name, price, image);
+        ProductsEntity product = new ProductsEntity(name, price, image, Optional.empty());
         return productsRepository.save(product);
     }
+
 }
