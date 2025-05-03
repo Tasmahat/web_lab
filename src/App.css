@@ -34,7 +34,7 @@ body {
 
 .header-menu button {
   height: 10vh;
-  width: 10vw;
+  width: 12vw;
   background-color: #CAA089;
   border-style: none;
   border-radius: 10px;
@@ -286,12 +286,12 @@ body {
 }
 
 .order-table input {
-  width: 5vw;
+  width: 10vw;
 }
 
 .create-tea-form {
   margin: auto;
-  margin-top: 10vh;
+  margin-top: 20vh;
   width: 40vw;
   height: 70vh;
   background-color: #CAA089;
@@ -352,4 +352,57 @@ body {
 
 .create-form-button:hover {
   cursor: pointer;
+}
+
+.header-admin {
+  top: 0;
+  background-color: #727272;
+  height: 10vh;
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  z-index: 1;
+}
+
+.header-menu-admin {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.header-menu-admin button {
+  height: 8vh;
+  width: 8vw;
+  background-color: #c4c4c4;
+  border-style: none;
+  border-radius: 10px;
+
+  font-family: Commissioner;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  font-weight: 400;
+  color: #000000;
+}
+
+.header-menu-admin button:hover {
+  background-color: #e7e7e7;
+  cursor: pointer;
+}
+
+.redact-product-table {
+  margin: auto;
+  margin-top: 20vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content:target {
+  display: flex;
 }

@@ -45,7 +45,7 @@ function CreateProduct() {
             }
         });
 
-        xhr.open("POST", "api/images?=");
+        xhr.open("POST", "api/api/images/save?=");
 
         xhr.send(data);
 
@@ -76,23 +76,18 @@ function CreateProduct() {
             }
         });
 
-        xhr.open("POST", "api/products/save?=");
+        xhr.open("POST", "api/api/products/save?=");
 
         xhr.send(data);
     }
 
     return(
-        <body>
-            <div className={"create-tea-form"}>
-                <a href={"/catalogue"}>
-                    <button className={"create-tea-return"}>Вернуться в каталог</button>
-                </a>
-                <input type="text" id="name" placeholder={"Название чая"} className={"input-box"}/>
-                <input type="text" id="price" placeholder={"Стоимость чая"} className={"input-box"}/>
-                <input type={"file"} id={"file"} onChange={fileListener} className={"add-file"}></input>
-                <button type='button' onClick={PostRequest} className={"create-form-button"}>Добавить чай</button>
-            </div>
-        </body>
+        <div className={"tab-content create-tea-form"} id={"add_product"}>
+            <input type="text" id="name" placeholder={"Название чая"} className={"input-box"}/>
+            <input type="text" id="price" placeholder={"Стоимость чая"} className={"input-box"}/>
+            <input type={"file"} id={"file"} onChange={fileListener} className={"add-file"}></input>
+            <button type='button' onClick={PostRequest} className={"create-form-button"}>Добавить чай</button>
+        </div>
     )
 }
 

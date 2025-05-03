@@ -49,6 +49,10 @@ public class ImagesService {
         return image;
     }
 
+    public void deleteImage(Images image) {
+        imagesRepository.delete(image);
+    }
+
     private String generateKey(String name) {
         String msg = name + LocalDateTime.now().toString();
         byte[] data = msg.getBytes();

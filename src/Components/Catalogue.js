@@ -8,7 +8,7 @@ function Catalogue() {
     useEffect(() => {
         setLoading(true);
 
-        fetch("api/products/all")
+        fetch("api/api/products/all")
             .then(response => response.json())
             .then(data => {
                 setProducts(data);
@@ -41,9 +41,6 @@ function Catalogue() {
                 <h2 className={"page-main-name"}>
                     Каталог товаров
                 </h2>
-                <a href={"/create_product"}>
-                    <button className={"catalogue-create-product"}>Создать товар</button>
-                </a>
                 <div className={"catalogue-body"}>
                     {productsList}
                 </div>

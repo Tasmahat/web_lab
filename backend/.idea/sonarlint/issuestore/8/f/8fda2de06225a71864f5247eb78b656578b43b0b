@@ -1,8 +1,14 @@
 
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ü†ùg8ß¦½Îâ2J$e8ee1e57-e071-4bdf-808f-2775904a2711
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ü†ùg8ŠøÑÙç2J$f7f1edb1-f775-4602-af13-50dd3fd93db6
 r
-java:S6212"/Declare this local variable with "var" instead.(¼Ğâ8ê¦½Îâ2J$a724a3ad-48d3-426a-a5af-5fe743a81d95
+java:S6212"/Declare this local variable with "var" instead.(¼Ğâ8”øÑÙç2J$72035d41-e21b-41ba-9dcd-0a58664714ec
 r
-java:S6212 "/Declare this local variable with "var" instead.(÷Æá8ê¦½Îâ2J$cb2c65b0-c891-4f5a-8565-56947731809a
+java:S6212 "/Declare this local variable with "var" instead.(÷Æá8”øÑÙç2J$db7353ee-cbf5-45cb-a242-3b15a2a16f6d
+m
+java:S3553$"%Specify a "String" parameter instead.(¢¼áàøÿÿÿÿ8–øÑÙç2J$195a62cc-4e82-4263-b179-be217bfd0d4d
+l
+java:S3553$"$Specify a "Float" parameter instead.(¢¼áàøÿÿÿÿ8–øÑÙç2J$a5d3a649-736d-4ffd-9a11-3047fac2c041
+k
+java:S3553$"#Specify a "Long" parameter instead.(¢¼áàøÿÿÿÿ8–øÑÙç2J$34d70f45-25d1-40a3-b29b-401187f99e0f
 ş
-java:S4605"µ'ProductsService' is not reachable by @ComponentScan or @SpringBootApplication. Either move it to a package configured in @ComponentScan or update your @ComponentScan configuration.(Ù´á§ùÿÿÿÿ8ì¦½Îâ2J$1160ded4-0422-432f-9db2-9a9cb0991aa6
+java:S4605"µ'ProductsService' is not reachable by @ComponentScan or @SpringBootApplication. Either move it to a package configured in @ComponentScan or update your @ComponentScan configuration.(Ù´á§ùÿÿÿÿ8›øÑÙç2J$2e09ceaa-e6d0-4372-8b5e-aec42477cb72

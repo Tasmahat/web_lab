@@ -12,7 +12,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.IOException;
 
 @RestController
-@RequestMapping("/images")
+@RequestMapping("/api/images")
 public class ImagesController {
     private final ImagesService imagesService;
 
@@ -31,7 +31,7 @@ public class ImagesController {
         return imagesService.getImageById(id);
     }
 
-    @PostMapping
+    @PostMapping("/save")
     public ResponseEntity<Images> upload(@RequestParam MultipartFile file) {
         try {
             return new ResponseEntity<>(imagesService.uploadImage(file), HttpStatus.CREATED);

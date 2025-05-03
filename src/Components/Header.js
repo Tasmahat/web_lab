@@ -33,6 +33,11 @@ function Menu() {
                     Форма заказа
                 </button>
             </a>
+            <a href={"/admin_page"} >
+                <button>
+                    Админис<br/>трирование
+                </button>
+            </a>
         </div>
     )
 }

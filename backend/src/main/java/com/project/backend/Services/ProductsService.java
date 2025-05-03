@@ -33,4 +33,32 @@ public class ProductsService {
         return productsRepository.save(product);
     }
 
+    public ProductsEntity updateProduct(Long id, Optional<String> name, Optional<Float> price, Optional<Long> imageId) {
+        ProductsEntity product = getProduct(id);
+        if (product == null) {
+            System.out.printf("No product with id %s found%n", id);
+            return null;
+        }
+
+        Images image = imageId.map(imagesService::getImageById).orElse(null);
+
+        if (image != null) {
+            imagesService.deleteImage(product.getImage());
+            product.setImage(image);
+        }
+        name.ifPresent(product::setName);
+        price.ifPresent(product::setPrice);
+        return productsRepository.save(product);
+    }
+
+    public void deleteProduct(Long id) {
+        ProductsEntity product = getProduct(id);
+        if (product == null) {
+            System.out.printf("No product with id %s found%n", id);
+            return;
+        }
+
+        productsRepository.delete(product);
+    }
+
 }

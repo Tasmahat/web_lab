@@ -6,7 +6,7 @@ function Order() {
     const [loading, setLoading] = useState(false)
 
     useEffect(() => {
-        fetch("api/products/all")
+        fetch("api/api/products/all")
             .then(response => response.json())
             .then(data => {
                 setProducts(data);
@@ -112,7 +112,7 @@ function Order() {
             }
         });
 
-        xhr.open("POST", "api/orders/save?=");
+        xhr.open("POST", "api/api/orders/save?=");
 
         xhr.send(data);
     }

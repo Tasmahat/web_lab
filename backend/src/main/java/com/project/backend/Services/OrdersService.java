@@ -27,6 +27,10 @@ public class OrdersService {
         return ordersRepository.findAll();
     }
 
+    public OrdersEntity getOrder(Long id) {
+        return ordersRepository.findById(id).orElse(null);
+    }
+
     public OrdersEntity saveOrder(String name, String surname, Integer age,
                                   LocalDate dateDelivery, LocalTime timeDelivery, Boolean isPrepaid, String address,
                                   String payment, Set<Long> listOfProducts, Set<Integer> listOfQuantity, Float totalCost) {
@@ -48,6 +52,15 @@ public class OrdersService {
         }
         order.setProductsInOrdersEntities(productsInOrdersEntitySet);
         return ordersRepository.save(order);
+    }
+
+    public void deleteOrder(Long id) {
+        OrdersEntity order = getOrder(id);
+        if (order == null) {
+            System.out.printf("No order by id %s found%n", id);
+            return;
+        }
+        ordersRepository.delete(order);
     }
 
     private Payment convertToPayment(String payment) {

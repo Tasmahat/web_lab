@@ -1,10 +1,13 @@
 package com.project.backend.Entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.project.backend.Services.FileManager;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+
+import java.io.IOException;
 
 @Entity
 @Table(name = "products_in_orders")
@@ -33,5 +36,10 @@ public class ProductsInOrdersEntity {
         this.order = order;
         this.product = product;
         this.quantity = quantity;
+    }
+
+    @PreRemove
+    private void deleteProduct() {
+        product = null;
     }
 }

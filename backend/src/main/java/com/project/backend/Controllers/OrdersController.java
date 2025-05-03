@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Set;
 
 @RestController
-@RequestMapping("/orders")
+@RequestMapping("/api/orders")
 public class OrdersController {
 
     private final OrdersService ordersService;
@@ -40,5 +40,12 @@ public class OrdersController {
     ) {
         return ordersService.saveOrder(name, surname, age, dateDelivery,
                 timeDelivery, isPrepaid, address, paymentType, listOfProduct, listOfQuantity, totalCost);
+    }
+
+    @DeleteMapping("/delete")
+    public void deleteOrder(
+            @RequestParam Long id
+    ) {
+        ordersService.deleteOrder(id);
     }
 }
